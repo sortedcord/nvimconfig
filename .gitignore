@@ -1,0 +1,15 @@
+# Secrets & Local Machine Configuration
+.env
+*.env
+lua/config/local.lua
+*.local.lua
+
+# Neovim swap, backup, and undo files
+*.swp
+*.swo
+*~
+*.un~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
