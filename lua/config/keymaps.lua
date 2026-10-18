@@ -48,6 +48,9 @@ map("v", ">", ">gv", { desc = "Indent right" })
 -- File explorer toggle
 map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file tree" })
 
+-- Toggle word wrap
+map("n", "zw", "<cmd>set wrap!<CR>", { desc = "Toggle word wrap" })
+
 -- ----------------------------------------------------------------------------
 -- Find / Telescope (<leader>f and <leader><leader>)
 -- ----------------------------------------------------------------------------
