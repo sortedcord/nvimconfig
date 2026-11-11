@@ -119,6 +119,12 @@ map("n", "]d", vim.diagnostic.goto_next, { desc = "Next diagnostic" })
 map("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Diagnostic loclist" })
 
 -- ----------------------------------------------------------------------------
+-- Color Picker & Highlighter (ccc.nvim)
+-- ----------------------------------------------------------------------------
+map("n", "<leader>cp", "<cmd>CccPick<CR>", { desc = "Color picker" })
+map("n", "<leader>tc", "<cmd>CccHighlighterToggle<CR>", { desc = "Toggle color highlighter" })
+
+-- ----------------------------------------------------------------------------
 -- LSP Keymaps (Buffer-local, attaches via LspAttach autocommand)
 -- ----------------------------------------------------------------------------
 vim.api.nvim_create_autocmd("LspAttach", {
